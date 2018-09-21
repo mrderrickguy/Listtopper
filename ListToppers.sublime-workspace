@@ -1,0 +1,729 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			],
+			[
+				"border-",
+				"border-width\tproperty"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fr",
+				"first_name"
+			],
+			[
+				"fir",
+				"first_name"
+			],
+			[
+				"fi",
+				"first_name"
+			],
+			[
+				"name",
+				"nameHandler"
+			],
+			[
+				"new",
+				"newRender"
+			],
+			[
+				"com",
+				"Component"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"my",
+				"myHTML"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"D",
+				"Department_name"
+			],
+			[
+				"P",
+				"Product_name"
+			],
+			[
+				"pr",
+				"product_name"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"ho",
+				"homeSearch"
+			],
+			[
+				"f",
+				"form\tTag"
+			],
+			[
+				"se",
+				"second"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"ce",
+				"createServer"
+			],
+			[
+				"ser",
+				"server2"
+			],
+			[
+				"wo",
+				"wordRender"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"love",
+				"myLove"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"get",
+				"getWeather"
+			],
+			[
+				"def",
+				"defense"
+			],
+			[
+				"make",
+				"makeNoise"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"o",
+				"orderNum"
+			],
+			[
+				"sort",
+				"sortNum"
+			],
+			[
+				"nu",
+				"numArray"
+			],
+			[
+				"no",
+				"nodeArg"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"ra",
+				"rainbow"
+			],
+			[
+				"ch",
+				"chalkAnimation"
+			],
+			[
+				"numb",
+				"numbers2"
+			],
+			[
+				"n",
+				"numbers2"
+			],
+			[
+				"c",
+				"check3"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"a",
+				"any"
+			],
+			[
+				"ck",
+				"check1"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"agr",
+				"argv"
+			],
+			[
+				"prc",
+				"process"
+			],
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text-",
+				"text-shadow"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"p",
+				"portfolio"
+			],
+			[
+				"co",
+				"contactme"
+			],
+			[
+				"magi",
+				"margin"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-blend-mode"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"mrg",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"tr",
+				"train"
+			],
+			[
+				"pl",
+				"placeInput"
+			],
+			[
+				"im",
+				"align-items"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"Bor",
+				"border-style"
+			],
+			[
+				"bod",
+				"border-style"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"Ba",
+				"background-color"
+			],
+			[
+				"dat",
+				"data-type"
+			],
+			[
+				"data",
+				"data-state"
+			],
+			[
+				"imag",
+				"images"
+			],
+			[
+				"sr",
+				"search"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"q",
+				"queryURL"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"B",
+				"buttons"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"r",
+				"randomNumber"
+			],
+			[
+				"ran",
+				"randomnumber"
+			],
+			[
+				"search",
+				"search-input"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"txt",
+				"text-align"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"magr",
+				"margin-bottom"
+			],
+			[
+				"btn",
+				"btn-lg"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ge",
+				"getseconds"
+			],
+			[
+				"tim",
+				"timeConverter"
+			],
+			[
+				"coun",
+				"countdown"
+			],
+			[
+				"g",
+				"getSet"
+			],
+			[
+				"sta",
+				"startClock"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"em",
+				"empty-div"
+			],
+			[
+				"guess",
+				"guesses"
+			],
+			[
+				"cm",
+				"computerChoices"
+			],
+			[
+				"you",
+				"youGuessedIt"
+			],
+			[
+				"i",
+				"if\tif"
+			],
+			[
+				"lo",
+				"losses"
+			],
+			[
+				"dri",
+				"drinkList"
+			],
+			[
+				"dr",
+				"drink-options"
+			],
+			[
+				"cars",
+				"cars"
+			],
+			[
+				"drive",
+				"driveToWork"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ti",
+				"tieScore"
+			],
+			[
+				"user",
+				"userGuess"
+			],
+			[
+				"z",
+				"zooAnimals"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"col-md-",
+				"col-md-6"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"m",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ms. Guy/Documents/11-06-2017-St-Paul-Class-Repository-FSF-master-a1770c01f91cbe21afe1be55a14ded56477cf356/01-Class-Content/21-regionalized-content/Django/01-Activities/09-Generic-Views/Solved/users/templates/users/add.html",
+		"/C/Users/Ms. Guy/Documents/11-06-2017-St-Paul-Class-Repository-FSF-master-a1770c01f91cbe21afe1be55a14ded56477cf356/01-Class-Content/21-regionalized-content/Django/01-Activities/06-Templates/Solved/users/templates/index.html",
+		"/C/Users/Ms. Guy/Documents/11-06-2017-St-Paul-Class-Repository-FSF-master-a1770c01f91cbe21afe1be55a14ded56477cf356/01-Class-Content/21-regionalized-content/Django/01-Activities/06-Templates/Solved/users/views.py",
+		"/C/Users/Ms. Guy/Documents/11-06-2017-St-Paul-Class-Repository-FSF-master-a1770c01f91cbe21afe1be55a14ded56477cf356/01-Class-Content/21-regionalized-content/Django/01-Activities/06-Templates/Unsolved/users/layout.html",
+		"/C/Users/Ms. Guy/Documents/11-06-2017-St-Paul-Class-Repository-FSF-master-a1770c01f91cbe21afe1be55a14ded56477cf356/01-Class-Content/21-regionalized-content/Django/01-Activities/06-Templates/Solved/users/layout.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/clickygame/src/Components/derrick.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/ClickyGame/package-lock.json",
+		"/C/Users/Ms. Guy/Documents/Home Work/ClickyGame/app/index.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/ClickyGame/npm-global/create-react-app",
+		"/C/Users/Ms. Guy/Documents/Home Work/ClickyGame/npm-global/create-react-app.cmd",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/06-ajax/01-Activities/01-CustomerObject/Solved/customer-object-solution.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/13-PartyDatabase/Unsolved/config/connection.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/13-PartyDatabase/Unsolved/config/db/server.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/15-TheAsynchSolution/Solved/server.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/07-TaskSaver/views/index.handlebars",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/11-QuotesApp/Unsolved/server.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/13-PartyDatabase/Unsolved/config/orm.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/12-OrmExample/config/config.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-61f2f9ea8a931f5aac46d014064507535f732bae/01-Class-Content/14-handlebars/01-Activities/06-HandlebarsAnimals/Solved/views/index.handlebars",
+		"/C/Users/Ms. Guy/Documents/serverstuff/server.js",
+		"/C/Users/Ms. Guy/Documents/serverstuff/package.json",
+		"/C/Users/Ms. Guy/Documents/serverstuff/index.html",
+		"/C/Users/Ms. Guy/Documents/Hangman/word.js",
+		"/C/Users/Ms. Guy/Desktop/weather/log.txt",
+		"/C/Users/Ms. Guy/Desktop/weather/weather.js",
+		"/C/Users/Ms. Guy/Documents/Nodejs/best_things_ever.txt",
+		"/C/Users/Ms. Guy/Documents/Nodejs/bank.txt",
+		"/C/Users/Ms. Guy/Documents/Nodejs/newClass.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/Basic-Portfolio/README.md",
+		"/C/Users/Ms. Guy/Documents/Home Work/Train-Scheduler/assets/javascrpit/train.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/Any-time-train/index.htm",
+		"/C/Users/Ms. Guy/Documents/Home Work/Any-time-train/train.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-bd44b25839a39d58347bea049c36a48e882976a7/01-Class-Content/07-firebase/01-Activities/20-MomentJS/Unsolved/momentjs-instructor.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-bd44b25839a39d58347bea049c36a48e882976a7/01-Class-Content/07-firebase/01-Activities/17-TimeSheet/Solved/timesheetLogic.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/giftastic/assets/javascript.js",
+		"/C/Users/Ms. Guy/Documents/Home Work/giftastic/fire.html",
+		"/C/Users/Ms. Guy/Documents/sideprojects/project1/style.css",
+		"/C/Users/Ms. Guy/Documents/Home Work/week-4-game/gg.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/week-4-game/assets/javascript/$( document ).js",
+		"/C/Users/Ms. Guy/Documents/Home Work/week-4-game/assets/images/green_gem.jpg",
+		"/C/Users/Ms. Guy/Documents/Mybootstrap-Portfolio.io/Edit · 01-Class-Content_03-javascript_01-Activities_26-SuperheroLogging_superhero-logging-solved-no-functions.html · master · University-of-Minnesota-Boot-Camp _ MINSTP201711FSF2-Class-Repository-FSF · .html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-56d36396eaa7810fa471c90f86ff87c9fb293668/01-Class-Content/03-javascript/01-Activities/16-ArraySetting/Unsolved/guessinggame.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-56d36396eaa7810fa471c90f86ff87c9fb293668/01-Class-Content/03-javascript/01-Activities/34-QuestionGame/Solved/question-game-solved.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-56d36396eaa7810fa471c90f86ff87c9fb293668/01-Class-Content/03-javascript/01-Activities/16-ArraySetting/Unsolved/Mygame.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-56d36396eaa7810fa471c90f86ff87c9fb293668/01-Class-Content/03-javascript/01-Activities/16-ArraySetting/Unsolved/GuessGame.html",
+		"/C/Users/Ms. Guy/Documents/Home Work/11-06-2017-St-Paul-Class-Repository-FSF-master-56d36396eaa7810fa471c90f86ff87c9fb293668/01-Class-Content/03-javascript/01-Activities/25-LoopTV/Solved/loop-tv-solved.html",
+		"/C/Users/Ms. Guy/Documents/js example/newjs.html",
+		"/C/Users/Ms. Guy/Documents/js example/js.html",
+		"/C/Users/Ms. Guy/Documents/Basic-Portfolio/index.html",
+		"/C/Users/Ms. Guy/Documents/Basic-Portfolio/style.css",
+		"/C/Users/Ms. Guy/Documents/Basic-Portfolio/portfolio.html",
+		"/C/Users/Ms. Guy/Documents/Basic-Portfolio/assets/images/linkedin.png",
+		"/C/Users/Ms. Guy/Documents/Bootstrap-portfolio/js.html"
+	],
+	"find":
+	{
+		"height": 82.0
+	},
+	"find_in_files":
+	{
+		"height": 296.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 82.0
+	},
+	"input":
+	{
+		"height": 121.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"project": "ListToppers.sublime-project",
+	"replace":
+	{
+		"height": 154.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,106 @@
+#Bg{
+	background-color:#E0E0DB;
+}
+#jumbo{
+	background:url(https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#lead2, .card-text, #musicgo, #bio , #top3, #moreArtist{
+	font-family: 'Ruslan Display', cursive;
+
+}
+#pColumn{
+	margin-left: 20px;
+	float: left;
+}
+
+#musicgo, #lead2{
+
+	text-align: center;
+	color:#E64217;
+}
+#lead2{
+	margin-left:1rem;
+}
+
+#top3, #link{
+
+	color: #F5B713;
+}
+
+#bio{
+	text-decoration: underline;
+}
+
+.card-text{ 
+	margin-top: 10px;
+	text-shadow: 2px 1px grey;
+	color: white;
+}
+/*raplink styles the paragraph in the rapzilla card*/
+#raplink{
+	color: white;
+	font-family: 'Ruslan Display', cursive;
+	font-size:14px;
+	text-align: center;
+	}
+
+	/*zillalink styles the link at the bottom of the rapzilla card*/
+	#zillalink, #FFT{
+		text-align: center;
+		font-family: 'Ruslan Display';
+		font-size: 20px;
+		text-shadow: .5px 1px #E64217;
+
+	}
+
+  #bio , i{
+ 	text-align: center;
+ 	margin-top: 2px;
+ 	color:rgb(0,0,0);
+ }
+
+ #rapzilla{ 
+ 	margin-top: -65em;
+ 	float: right;
+ 	margin-right: 2em
+ }
+
+ #linkCard{
+ 	background-color:#E64217;
+ }
+
+ #moreFavs{
+ 	margin-top: 20px;
+ }
+
+ .card-img-top{
+box-shadow: 5px 11px;
+}
+
+#DM{
+font-size: 26.0px;
+ }
+
+
+.card-columns{
+	margin-left: 8rem;
+	width: 50rem;
+	height: 50rem;
+	margin-top: 2px;
+	padding: 30px;
+}
+
+#myImg, .card{
+
+	border-radius: 10%;
+}
+
+
+ .card-body{
+ 	box-shadow: 5px 9px;
+ 	background-color:#4372bb; 
+
+}
