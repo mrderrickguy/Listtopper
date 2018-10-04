@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
   <title>Top Of My List Artist-Fan Page!</title>
-  <link rel="stylesheet" type="text/css" href="newstyle.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Ruslan+Display" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,108 +12,160 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 </head>
-<body id="Bg">
-  <div class="jumbotron" id="jumbo">
-  <h1 class="display-4" id="musicgo">Music Makes the World Go Round!</h1>
- </div>
-<section>
-  
-</section>
-<section>
-<div class="col-lg-10" id="pColumn">
-    <p class="text-md-left" id="FFT">I strongly believe that what you put in your ears plays a big role on my attitude. I chose to take out the trash that really had no meaning or relation to how I live some time ago and fill my mind with a new kind of sound!
-    Now, don't get me wrong what I listen to may not be what your into but whatever you do choose to put in your ears, ask yourself;"How do this really make me feel?"
-    </p>
-  </div>
-    <div class="col-lg-10" id="pColumn">
-  <div class="row">
-    <h2 class="text-md-middle" id="lead2">Here's a shot out to artist at the top of my list!</h2>
-  </div>
-</div>
-</section>
-   <section>
-    <div class="col-lg-10">
-<div class="card-columns">
-  <div class="card ">
-    <div class="card-body text-center">
-       <img class="card-img-top" id="myImg" src="data:image/jpeg;base64,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" alt="Card image cap " >
-      <h2 class="card-text">Lecrae</h2>
-      <a href="https://en.wikipedia.org/wiki/Lecrae" target="_blank"><h3 id="bio"> Bio </h3></a>
-      <h5 id="top3"> &#9835; Top 3 Songs &#9835;</h5>
-      <a id="link" href="https://www.youtube.com/watch?v=Jv8IqJm6q7w" target="_blank"> <i class="fa fa-headphones"></i> I'll Find You</a><br>
-      <a id="link" href="https://www.youtube.com/watch?v=i58IH2D8sWQ" target="_blank"> <i class="fa fa-headphones"></i> Blessings</a><br>
-      <a id="link" href="https://www.youtube.com/watch?v=6iRTBh1gCjk" target="_blank"> <i class="fa fa-headphones"></i> Alls I need Is You</a>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+  <h3 class="navbar-brand" href="#">Fan Page!</h3>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<header id="jumbo">
+  <div class="masterhead">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1 class="display-4" id="musicgo">Music Makes the World Go Round!</h1>
+              <h3 id="myfavs">So here's a roundup of A few of my favorite artist.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card ">
-    <div class="card-body text-center">
-       <img class="card-img-top" id="myImg" src="data:image/jpeg;base64,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" alt="Card image cap">
-      <h2 class="card-text">Bizzle</h2>
-      <a  href="http://godovermoney.com/artist/bizzle/" target="_blank"><h3 id="bio"> Bio </h3></a>
-      <h5 id="top3"> &#9835; Top 3 Songs &#9835;</h5>
+  </header>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+
+
+<nav>
+<div class="col-md-12">
+      <p class="container-fluid" id="pColumn">I strongly believe that what you put in your ears plays a big role on my attitude. I chose to take out the trash that really had no meaning or relation to how I live some time ago and fill my mind with a new kind of sound!
+      Now, don't get me wrong what I listen to may not be what your into but whatever you do choose to put in your ears, ask yourself;"How do this really make me feel?"
+      </p>
+  <h2 id="lead2">Here's a shot out to artist at the top of my list!</h2>
+  </div>   
+
+<div class="card-group">
+  <!-- Bizzle card -->
+  <div class="col-sm-4">
+  <div class="card" style="border-radius: 10%;">
+   <div>
+    <h5 class="card-title" id="bizz">Bizzle</h5>
+    <div class="text-center" id="pix">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5tI4a18AZ9eQQusWy0rv62sntyERds68du9eNSq7aX0T7djkTA" id="pixStyle" width="240" height="200" alt="...">
+    </div>
+    <a  href="http://godovermoney.com/" target="_blank"><h3 id="bio"> GodOverMoney.com </h3></a>
+        <h5 id="top3"> Top 3 Songs</h5>
       <a id="link" href="https://www.youtube.com/watch?v=S_OJUMESC04" target="_blank"> <i class="fa fa-headphones"></i> Way up</a><br>
       <a id="link" href="https://www.youtube.com/watch?v=NBIRuh21Sto" target="_blank"> <i class="fa fa-headphones"></i> Clear My Mind</a><br>
       <a id="link" href="https://www.youtube.com/watch?v=SC-8X2-gFis" target="_blank"> <i class="fa fa-headphones"></i> From The Outside</a>
     </div>
   </div>
-  <div class="card" >
-    <div class="card-body text-center" id="myCard">
-      <img class="card-img-top" id="myImg" src="http://wadeoradio.com/wp-content/uploads/2016/10/DerekMinor-Reflection_713x441.jpg" width="200" height="130" alt="Card image cap">
-      <h2 class="card-text" id="DM">Derek Minor</h2>
-      <a  href="" target="_blank"><h3 id="bio"> Bio </h3></a>
-      <h5 id="top3"> &#9835; Top 3 Songs &#9835;</h5>
+</div>
+  <!--Lecrae card-->
+  <div class="col-sm-4">
+  <div class="card" style="border-radius: 10%;">
+    <div>
+      <h5 class="card-title" id="Crae">Lecrae</h5>
+       <div class="text-center" id="pix">
+      <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScatq-gyKWxJ4GNCjCgJOq9V6PVm1mv-D9C77V05syBHoPKd-9SQ"  id="pixStyle" width="240" height="200" alt="...">
+    </div>
+      <a  href="http://www.lecrae.com/" target="_blank"><h3 id="bio">Lerae.com</h3></a>
+      <h5 id="top3">Top 3 Songs</h5>
+   
+      <a id="link" href="https://www.youtube.com/watch?v=Jv8IqJm6q7w" target="_blank"> <i class="fa fa-headphones"></i> I'll Find You</a><br>
+      <a id="link" href="https://www.youtube.com/watch?v=i58IH2D8sWQ" target="_blank"> <i class="fa fa-headphones"></i> Blessings</a><br>
+      <a id="link" href="https://www.youtube.com/watch?v=6iRTBh1gCjk" target="_blank"> <i class="fa fa-headphones"></i> Alls I need Is You</a>
+    </div>
+  </div>
+  </div>
+  <!-- Derek minor card -->
+  <div class="col-sm-4">
+  <div class="card" style="border-radius: 10%;">
+    <div>
+      <h5 class="card-title" id="DMinor">Derek Minor</h5>
+       <div class="text-center" id="pix">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDK9ALNOkCIyxZJ3-fKPOHLMdMOSzO52g_WROcFqAwRrM9v2BD4A" id="pixStyle" width="240" height="200" alt="...">
+    </div>
+      <a  href="http://www.derekminor.com/" target="_blank"><h3 id="bio"> Bio </h3></a>
+      <h5 id="top3"> Top 3 Songs</h5>
       <a id="link" href="https://www.youtube.com/watch?v=Izu7P-EiOuU" target="_blank"> <i class="fa fa-headphones"></i> Its Not A Game</a><br>
       <a id="link" href="https://www.youtube.com/watch?v=2Q9ePgbJV5E" target="_blank"> <i class="fa fa-headphones"></i> Change The World</a><br>
       <a id="link" href="https://www.youtube.com/watch?v=0Ay-7V7NM18" target="_blank"> <i class="fa fa-headphones"></i> Who You Know</a>
     </div>
   </div>
-</section>
-<section>
-  <div class="card" id="rapzilla" style="width: 10rem;">
+  </div>
+</div>  
+
+<div class="container">
+  <div class="col-md-6" style=" margin-top: 100pt; float: left">
+    <blockquote class="quote">
+     <h3>"If the King loves music, it is well with the land". ~Mencius</h3>
+    </blockquote>
+      <h3><br>
+        If you have any artist you like or songs do share!
+      </h3>
+      <form>
+        <div class="form-group">
+        <label for="">Who's Your Top Pick?</label><br>
+        Artist Name<br>
+        <input type="text" name="artist" id="urFav"><br>
+        Song<br>
+        <input type="text" name="song" id="favSong">
+      </div>
+      <br><br>
+        <button type="submit" class="btn btn" id="share">Submit</button>
+
+        
+      </form>  
+  </div>
+</div>
+<aside>
+  
+  <div class="container-fluid">
+   <div class="col-md-4" style="margin-top: 100pt; margin-left: 45rem;">
+  <div class="container" id="checkout">
+    <p id="zilla"> FOR A GOOD SOURCE TO FIND MORE MUSIC WITH A POSITIVE AND UPLIFTING MESSEAGES YOU GOTTA CHECK OUT<br> <i class="fa fa-hand-o-down" style="font-size:48px;color:red"></i></p>
+  </div>
     <img class="card-img-top" id="cardtop" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Sc_title.png/250px-Sc_title.png" alt="Card image cap">
     <div class="card-body" id="linkCard">
       <h6 id="raplink">Rapzilla is a Christian hip hop online magazine, the top Christian hip hop website. The website contains many sections such as latest news, album reviews,
        articles, interviews, music downloads, videos, release dates, and columns.Rapzilla is known for its up-to-date news <br><br>
-       <a href="https://rapzilla.com/" id="zillalink"> Rapzilla.com </a>
+       <a href="https://rapzilla.com/" target="_blank" id="zillalink"> Rapzilla.com </a>
     </h6>
-    </div>
 </div>
 </div>
+</aside>
+  </nav>
 </section>
-<section>
-  <div id="morevFavs" >
- <div class="card text-center">
-  <div class="card-title">
-  <h1 id="moreArtist">More artist to Check Out!</h1>
-  </div>
- <div class="card-body">
-   <img class="card"  src="http://rareofbreed.com/wp-content/uploads/2017/01/breed.png" width="200" height="200" alt="Card image cap" id="rare">
-    <p class="card-text">New to the sence of Christian hip-hop but not to the struggles this life sometimes deals us. With a new-found life, Rare began to write music again. However, this time it wasn’t about the chains that once held him captive. It was about the One who broke those chains and set him free, Jesus Christ</p>
-   <img class="card"  src="http://s3.amazonaws.com/hiphopdx-production/2016/04/thisl-against-all-odds-620x620.jpg" width="200" height="200" alt="Card image cap" id="rare">
-    <p class="card-text">If you've never heard of Travis Tyler A.K.A-("Thi'sl") before, prepare to take quite a journey through his life and marvel at what God has brought him through.</p>
-</div>
-  <div class="card-footer text-muted">
-</div>
-</section>
+
+
   <section>
-  <div class="col-md-12">
-    <div class="container" id="connection">
-      <a href="https://www.facebook.com/Rapzilla/" target="_blank"> <i class="fa fa-facebook-f" style="font-size:36px"></a></i>
-      <a href="https://www.youtube.com/channel/UCuKdWx8L8tGivbCwTElBjOw" target="_blank"> <i class="fa fa-youtube-play" style="font-size:36px;color:red"></a></i>
-      <a href="https://www.instagram.com/dgee9279/" target="_blank"><i style="font-size:36px" class="fa">&#xf16d;</i></a>
-      <a href="https://twitter.com/guyderrick34" target="_blank"><i class="fa fa-twitter-square" style="font-size:36px"></i></a>
-      <a href="https://open.spotify.com/user/rapzilla.com" target="_blank"><i class="fa fa-spotify" style="font-size:36px"></i></a>
-    </div>
-  </div>
-  <div class="col-md-12">
-    <footer>
-      <nav>
-        <h2 class="text-center"> Copyright <i class="fa fa-copyright" style="font-size:24px"></i> by Derrick Guy</h2>
-      </nav>
-    </footer>
-  </div>
- </section>
+      <footer class="col-md-12">
+      <h5 class="text-center"> Copyright <i class="fa fa-copyright" style="font-size:18px"></i> by Derrick Guy</h5>
+      </footer>
+    
+</section>
+        
+
 
 <script type="text/javascript" src="fan.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
 </body>
 </html>

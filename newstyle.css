@@ -1,4 +1,4 @@
-#Bg{
+/*#Bg{
 	background-color:#E0E0DB;
 }
 #jumbo{
@@ -6,13 +6,65 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 100px 0 90px;
+  color: white;
+}
 
 #lead2, .card-text, #musicgo, #bio , #top3, #moreArtist{
 	font-family: 'Ruslan Display', cursive;
 
 }
 #pColumn{
-	margin-left: 20px;
+	margin-left: 30px;
 	float: left;
 }
 
@@ -22,7 +74,9 @@
 	color:#E64217;
 }
 #lead2{
-	margin-left:1rem;
+	text-align: center;
+	margin-left:24px;
+	width: 30em;
 }
 
 #top3, #link{
@@ -39,7 +93,7 @@
 	text-shadow: 2px 1px grey;
 	color: white;
 }
-/*raplink styles the paragraph in the rapzilla card*/
+/*raplink styles the paragraph in the rapzilla card
 #raplink{
 	color: white;
 	font-family: 'Ruslan Display', cursive;
@@ -48,13 +102,12 @@
 	}
 
 	/*zillalink styles the link at the bottom of the rapzilla card*/
-	#zillalink, #FFT{
+	/*#zillalink, #FFT{
 		text-align: center;
 		font-family: 'Ruslan Display';
 		font-size: 20px;
 		text-shadow: .5px 1px #E64217;
-
-	}
+}
 
   #bio , i{
  	text-align: center;
@@ -63,9 +116,10 @@
  }
 
  #rapzilla{ 
- 	margin-top: -65em;
- 	float: right;
- 	margin-right: 2em
+ 	width: 150px;
+ 	height: 300px;
+ 	margin-top: 20px;
+ 	margin-right: 2px;
  }
 
  #linkCard{
@@ -77,6 +131,7 @@
  }
 
  .card-img-top{
+
 box-shadow: 5px 11px;
 }
 
@@ -84,26 +139,43 @@ box-shadow: 5px 11px;
 font-size: 26.0px;
  }
 
-#rare, #connection{
-	margin-left: 32rem;
+#rareofbreed, #connection{
+	margin-left: 30px;
+	margin-top: -20rem;
+}
+#cardBody{
+	border-radius: 5%;
 }
 
 .card-columns{
+	margin-top: 4px;
 	margin-left: 8rem;
 	width: 50rem;
 	height: 50rem;
-	margin-top: 2px;
 	padding: 30px;
+}
+
+#artistCards{
+	background-color: #F5B713; 
+	margin-top: 20rem;
+	height: 24rem;
+}
+
+#more{
+	max-height: 220px;
 }
 
 #myImg, .card{
 
 	border-radius: 10%;
 }
+#sec3{
+	margin-top: 2px;
+}
 
 
  .card-body{
- 	box-shadow: 5px 9px;
+ 	box-shadow: 2px 5px;
  	background-color:#4372bb; 
 
-}
+}*/

@@ -1,0 +1,952 @@
+ {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color:black;
+    padding: 90px;
+    text-align: center;
+    height: 400px;
+    font-size: 8vh;
+    color: white;
+}
+
+#Crae, #DMinor, #bizz {
+    color: #E64217;
+}
+
+#top3, #link{
+    color: #E64217;
+    text-shadow: 1px 1px black;
+}
+
+
+#musicgo{
+    font-family: 'Ruslan Display', cursive;
+    font-size: 30vh;
+    text-align: center;
+    color:#E64217;
+}
+
+#pColumn, #lead2{
+     margin-bottom:50px;
+    text-align: center;
+    font-family: 'Ruslan Display', cursive;
+}
+
+#zilla{
+    margin-top: 20px;
+     text-align: center;
+    font-family: 'Ruslan Display', cursive;
+}
+
+#jumbo{
+    background:url(https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#pix, #pixStyle{
+    margin-bottom: 10px;
+    border-radius: 15%;
+    
+}
+#pixStyle{
+    border-style:solid;
+    border-color: #E64217;  
+    border-width: 2px; 
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+     /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 80px;
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 100px 0 90px;
+  color: white;
+}
+
+#lead2, .card-text, #bio , #top3, #moreArtist{
+    font-family: 'Ruslan Display', cursive;
+}
+
+#bio, #top3{
+    text-align: center;
+}
+
+#link{ 
+    margin-left: 80px;
+ }
+  .card{
+    
+    height: 30rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+
+input{
+    border-radius: 8%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#share{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+   
+
+
+#linkCard{
+    background-color:#E64217;
+ }
+
+ #raplink{
+    color: white;
+    font-family: 'Ruslan Display', cursive;
+    font-size:14px;
+    text-align: center;
+    }
+
+ #rapzilla{ 
+    width: 0px;
+    height: 200px;
+    margin-top: 10pt;
+    margin-right: 20px;
+ }
+ #checkout{
+    background-color: #f1f1f1;
+    border-top: solid;
+    border-top-width: 10px;
+    padding: 20px;
+ }
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+     article {
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color:black;
+    padding: 90px;
+    text-align: center;
+    height: 400px;
+    font-size: 35px;
+    color: white;
+}
+
+#top3, #link{
+    color: #E64217;
+    text-shadow: 1px 1px black;
+
+}
+
+#musicgo, #lead2{
+
+    text-align: center;
+    color:#E64217;
+}
+
+#jumbo{
+    background:url(https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+     /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 80px;
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 100px 0 90px;
+  color: white;
+}
+
+#lead2, .card-text, #musicgo, #bio , #top3, #moreArtist{
+    font-family: 'Ruslan Display', cursive;
+
+}
+ .card,.card-body{
+    box-shadow: 1px 3px grey;
+ }
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+}
+
+@media (min-width:992px){
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color:black;
+    padding: 90px;
+    text-align: center;
+    height: 400px;
+    font-size: 35px;
+    color: white;
+}
+
+#top3, #link{
+    color: #E64217;
+    text-shadow: 1px 1px black;
+
+}
+
+#musicgo, #lead2{
+
+    text-align: center;
+    color:#E64217;
+}
+
+#jumbo{
+    background:url(https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+     /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 80px;
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 100px 0 90px;
+  color: white;
+}
+
+#lead2, .card-text, #musicgo, #bio , #top3, #moreArtist{
+    font-family: 'Ruslan Display', cursive;
+
+}
+
+.card-title{
+    text-align: center;
+}
+ .card,.card-body{
+    box-shadow: 1px 3px grey;
+ }
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+}
+
+@media (max-width:366px){
+
+    box-sizing: border-box;
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    position: relative;
+    background-color:black;
+    padding: 100px;
+    height: 300px;
+    font-size: 10px;
+    color: white;
+}
+
+#top3, #link{
+    color: #E64217;
+    text-shadow: 1px 1px black;
+
+}
+
+/*#musicgo, #lead2, .site-heading{
+    font-size: 28px;
+    text-align: center;
+    color:#E64217;
+}
+.card-title{
+    text-align: center;
+}*/
+
+#jumbo{
+    background:url(https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+     /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 80px;
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 50px 0 30px;
+  color: white;
+}
+
+#lead2, .card-text, #musicgo, #bio , #top3, #moreArtist{
+    font-family: 'Ruslan Display', cursive;
+
+}
+/*
+#DM,#bizz,#crae,.card-title{
+    font-size: 13.75px;
+    font-family: 'Ruslan Display', cursive;
+    color: #E64217;
+}*/
+ .card,.card-body{
+    box-shadow: 1px 3px grey;
+ }
+
+#craeImg{
+    width: 200px;
+    height: 200px;
+}
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+}
+
+@media (min-width:768px){
+header.masthead p{
+    font-size:2rem
+}
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    position: relative;
+    margin-top: 20px;
+    background-color:black;
+    padding: 90px;
+    text-align: center;
+    height: 400px;
+    font-size: 25px;
+    color: white;
+}
+
+#top3, #link{
+    color: #E64217;
+    text-shadow: 1px 1px black;
+}
+
+#musicgo{
+    font-size: 32px;
+    text-align: center;
+    color:#E64217};
+
+#jumbo{
+    background:url(https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+     /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 80px;
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 100px 0 90px;
+  color: white;
+}
+
+#lead2, .card-text, #musicgo, #bio , #top3, #DMinor,#bizz, #Crae{
+    font-family: 'Ruslan Display', cursive;
+
+}
+#musicgo{
+    font-size: 10vh;
+    text-shadow: 2px 3px white;
+}
+
+ #myfavs{
+    font-family: 'Ruslan Display', cursive;
+    text-shadow: 2px 3px #E64217;
+    font-size: 38px;
+
+ }
+
+ .card,.card-body{
+    box-shadow: 1px 3px grey;
+ }
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+   background-color:#254369;
+    height: 50%;
+    background-color: ;
+    padding: 20px;
+    text-align: center;
+    color:#E64217;
+}
+
+}
+@media (min-width:992px){
+header.masthead{
+    height:100px;
+    min-height:650px;
+    padding-top:0;
+    padding-bottom:0
+
+}
+
+
+header.masthead h1{
+    font-size:3rem
+}}
+
+@media (max-width:1200px){
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color:black;
+    padding: 90px;
+    text-align: center;
+    height: 400px;
+    font-size: 40px;
+    color:#254369;
+}
+
+#top3, #link, #myfavs {
+    color: #E64217;
+    text-shadow: 1px 1px black;
+
+}
+
+.card-top-img{
+    border-radius: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+#musicgo, #myfavs{
+    font-size: 50px;
+    text-align: center;
+    color:#E64217;
+}
+
+
+    
+ #myfavs{
+    font-family: 'Ruslan Display', cursive;
+    text-shadow: 2px 3px #E64217;
+    font-size: 38px;
+
+ }
+ 
+ 
+  .card,.card-body{
+    box-shadow: 1px 3px grey;
+ }
+
+
+#jumbo{
+    background:url(https://media.giphy.com/media/3oKIPAX6QjYLp3ZJTi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+     /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 80px;
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 11px solid #e9ecef;
+  background-color:;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 800;
+  color: #343a40;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color:yellow;
+  opacity: 0.5;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 100px 0 90px;
+  color: white;
+}
+
+#lead2, .card-text, #musicgo, #bio , #top3, #moreArtist{
+    font-family: 'Ruslan Display', cursive;
+
+}
+
+#myfavs{
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 2px 2px #E64217;
+    color:white;
+}
+
+footer{
+    width: 100%;
+}
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+header.masthead h1{
+        font-size:5rem
+    }
+
+
+}
